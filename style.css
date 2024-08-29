@@ -22,7 +22,7 @@
           box-shadow: #456990 0px 30px 60px -12px inset, #456990 0px 18px 36px -18px inset;
       } */
 
-      @media only screen and (min-width: 300px) {
+      @media only screen and (min-width: 400px) {
           .box {
               height: 50px;
               width: 50px;
