@@ -16,8 +16,8 @@
 
       @media only screen and (min-width: 300px) {
           .box {
-              height: 50px;
-              width: 50px;
+              height: 100px;
+              width: 100px;
               background-color: #E4FDE1;
               border-radius: 15px;
               margin: 2px;
@@ -32,7 +32,7 @@
               text-align: center;
               justify-content: center;
               padding: 20px;
-              margin-top: 150px;
+              margin-top: 300px;
               color: white;
               background-color: #114B5F;
               border: 3px dashed white;
@@ -51,6 +51,23 @@
               margin-top: 50px;
               text-align: center;
 
+          }
+
+          .game {
+              height: 10vmin;
+              /* width: 60vmin; */
+
+              justify-content: center;
+              align-items: center;
+              /* gap: 1.5vmin; */
+          }
+
+          .container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 80px;
+              width: 600px;
           }
 
 
@@ -129,6 +146,7 @@
           justify-content: center;
           align-items: center;
           margin-top: 50px;
+          width: 100%;
       }
 
 
